@@ -17,6 +17,9 @@ const App = () => {
 
   return (
     <div className="h-screen w-full bg-gray-800 flex justify-center items-center flex-col space-y-10">
+      <h1 className="text-white absolute top-0 p-20 text-5xl font-light">
+        WeatherBug
+      </h1>
       <InputField
         inputData={inputData}
         handleOnchange={handleInput}
